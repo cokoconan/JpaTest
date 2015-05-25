@@ -24,7 +24,7 @@ public class MainTest {
 		
 		Collection<User> usr = service.findAllProfessors();
 		
-		for(User tmp : usr){
+		for(User tmp : usr){ 
 			System.out.println(tmp.getName());
 		}
 		
